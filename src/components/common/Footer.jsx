@@ -80,7 +80,7 @@ function Footer() {
             <div style={mainDiv}>
                 <div style={divStyle}>
 
-                    <Link to="/" >
+                    <Link to="/ChallengeTest" >
                         <img src={logo} alt="logo" style={{height: '2vw', width:'6.85vw', marginTop: '5%'}} />
                     </Link>
 
@@ -97,31 +97,31 @@ function Footer() {
                 <div style={divStyleAlt}>
                     <p style={{fontSize: '1vw', fontWeight:'bold', color: 'white'}}>Company</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/'>Home</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Features</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Screenshots</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Pricing</Link>
-                        <Link style={smallTextStyle} to='/team'>Team</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest'>Home</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Features</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Screenshots</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Pricing</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/team'>Team</Link>
                     </div>
                 </div>
                 <div style={divStyleAlt}>
                     <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white'}}>Help</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/pageTodo'>Help Center</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>FAQ's</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Terms & Conditions</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Privacy</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Contacts</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Help Center</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>FAQ's</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Terms & Conditions</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Privacy</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Contacts</Link>
                     </div>
                 </div>
                 <div style={divStyleAlt}>
                     <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white'}}>Solutions</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/pageTodo'>Consumer</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Saas</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Education</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Gaming</Link>
-                        <Link style={smallTextStyle} to='/pageTodo'>Financial Services</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Consumer</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Saas</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Education</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Gaming</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Financial Services</Link>
                     </div>    
                 </div>
             </div>

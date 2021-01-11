@@ -6,11 +6,11 @@ function App() {
    <div className="App">
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/team"  component={TeamIndex} />
-        <Route exact path="/team/newEmployee" component={TeamIndex} />
-        <Route exact path="/pageNotFound" component={PageNotFound} />
-        <Route exact path="/pageTodo" component={PageTodo} />
+        <Route exact path="/ChallengeTest" component={Home} />
+        <Route exact path="/ChallengeTest/team"  component={TeamIndex} />
+        <Route exact path="/ChallengeTest/team/newEmployee" component={TeamIndex} />
+        <Route exact path="/ChallengeTest/pageNotFound" component={PageNotFound} />
+        <Route exact path="/ChallengeTest/pageTodo" component={PageTodo} />
       </Switch>
      
     </Router>
