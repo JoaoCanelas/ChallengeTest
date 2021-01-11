@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ChallengeTest/static/css/main.b829a887.chunk.css",
+    "main.js": "/ChallengeTest/static/js/main.4a9f9b6e.chunk.js",
+    "main.js.map": "/ChallengeTest/static/js/main.4a9f9b6e.chunk.js.map",
+    "runtime-main.js": "/ChallengeTest/static/js/runtime-main.09a17dd9.js",
+    "runtime-main.js.map": "/ChallengeTest/static/js/runtime-main.09a17dd9.js.map",
+    "static/js/2.8e940ae5.chunk.js": "/ChallengeTest/static/js/2.8e940ae5.chunk.js",
+    "static/js/2.8e940ae5.chunk.js.map": "/ChallengeTest/static/js/2.8e940ae5.chunk.js.map",
+    "static/js/3.90feb30e.chunk.js": "/ChallengeTest/static/js/3.90feb30e.chunk.js",
+    "static/js/3.90feb30e.chunk.js.map": "/ChallengeTest/static/js/3.90feb30e.chunk.js.map",
+    "index.html": "/ChallengeTest/index.html",
+    "static/css/main.b829a887.chunk.css.map": "/ChallengeTest/static/css/main.b829a887.chunk.css.map",
+    "static/js/2.8e940ae5.chunk.js.LICENSE.txt": "/ChallengeTest/static/js/2.8e940ae5.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/ChallengeTest/static/media/img-cut-landing.062e93a9.png",
+    "static/media/curve-1.06d489ff.png": "/ChallengeTest/static/media/curve-1.06d489ff.png",
+    "static/media/img-landing.88e6749a.png": "/ChallengeTest/static/media/img-landing.88e6749a.png",
+    "static/media/pencil.2c54dec2.svg": "/ChallengeTest/static/media/pencil.2c54dec2.svg",
+    "static/media/times-solid.ea7c95d7.svg": "/ChallengeTest/static/media/times-solid.ea7c95d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09a17dd9.js",
+    "static/js/2.8e940ae5.chunk.js",
+    "static/css/main.b829a887.chunk.css",
+    "static/js/main.4a9f9b6e.chunk.js"
+  ]
+}
