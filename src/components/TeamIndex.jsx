@@ -38,7 +38,7 @@ function TeamIndex() {
  
 
   function checkURL(){
-      showDivTeam = location === '/ChallengeTest/team/' ? true : false; 
+      showDivTeam = ( (location === '/ChallengeTest/team/') || (showDivTeam = location === '/ChallengeTest/team') ) ? true : false; 
   }
 
   
