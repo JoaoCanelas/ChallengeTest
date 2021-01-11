@@ -105,7 +105,7 @@ function Footer() {
                     </div>
                 </div>
                 <div style={divStyleAlt}>
-                    <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white/'}}>Help</p>
+                    <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white'}}>Help</p>
                     <div style={smallTextStyle}>
                         <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Help Center</Link>
                         <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>FAQ's</Link>
