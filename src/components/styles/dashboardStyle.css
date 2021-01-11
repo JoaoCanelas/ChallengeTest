@@ -1,0 +1,103 @@
+
+#mainRow{
+    height: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: flex-start
+}
+
+
+#employeeSlot{
+    position: relative;
+    height: auto;
+    margin: 1vw;
+    padding-bottom: 0.5vw;
+    box-shadow: 0px 5px 20px 1px rgba(0,0,0,0.05);
+    background-color: white;
+    width:35vw;
+    display: inline-block;
+    font-family: 'Open Sans',sans-serif;
+    
+    
+}
+
+#slotHeader{
+    height: 10%;
+    border-bottom: 0.2vw solid #5851ea;
+    padding-top: 0.5vw;
+}
+
+#avatar{
+    width:15%;
+    display: inline;
+    float: left;
+    border-radius: 50%;
+    padding: 1vw;
+    margin-left: 1vw;
+    
+}
+
+#divHead{
+    width: 70%;
+    float: left;
+    text-align: left;
+    
+}
+#employeeName{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+#employeeInfoHd{
+    color:grey;
+    font-size: 0.9vw;
+    font-weight: normal;
+    width: 100%;
+}
+
+#employeeInfoBdTop{
+    color:grey;
+    font-size: 0.9vw;
+    font-weight: normal;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 0.3vw;
+
+}
+
+#employeeInfoBd{
+    color:grey;
+    font-size: 0.9vw;
+    font-weight: normal;
+    padding-left: 2vw;
+    padding-bottom: 0.3vw;
+}
+
+#deleteSlot{
+    opacity: 0.3;
+    width: 1vw;
+    position: absolute;
+    top: 5%;
+    right: 5%
+}
+
+#editSlot{
+    opacity: 0.3;
+    width: 1vw;
+    position: absolute;
+    top: 6%;
+    right: 12%
+
+}
+
+#emptySentence{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Poppins';
+    color: #5851ea;
+    
+
+}

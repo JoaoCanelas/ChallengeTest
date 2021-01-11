@@ -1,0 +1,101 @@
+
+#Section1{
+    background-color: #5851EA;
+    background-image: url("../common/assets/img-cut-landing.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 53vw;  
+    position: relative;
+    margin: auto;
+
+}
+
+#Section2{
+    padding-top: 7vw;
+    max-width: 100%;
+    height: 80vw;  
+    position: relative;
+    margin: auto;
+    background-image: url('../common/assets/curve.png'), url('../common/assets/circle.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 60%, 115%;
+    background-position-y: -50%, bottom;
+    background-size: 88vw, 20vw;  
+}
+
+
+#logo{
+    width: 6.85vw;
+    height: 2vw;
+    padding-top: 2%;
+    padding-left: 15%;
+    position: relative;
+    display: inline;
+}
+
+
+#centerLandingMsg{
+    margin: auto;
+    width: 20vw;
+    padding-top: 6.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#landingMotto{
+    display: block;
+    font-size:xx-large;
+    color: white;
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+#enterLandingBtn{
+    width: 10vw;
+    display: block;
+    margin: auto;
+    color: #5851EA;
+    padding: 1vw 0;
+    text-align: center;
+    font-size: 0.8vw;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 100px;
+}
+
+#lorem1{
+    text-align: center;
+    max-width: 100%;
+    color: gray; 
+    width: 700px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+}
+
+#lorem2{
+    width: 60%;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+#leftSide{
+    float:right;
+    width: 50%;
+    max-width: 100%;
+    height: inherit;
+    position: relative;
+}
+
+#rightSide{
+    display: inline-block;
+    width: 50%;
+    max-width: 100%;
+    height: inherit;
+    position: relative;
+}
+

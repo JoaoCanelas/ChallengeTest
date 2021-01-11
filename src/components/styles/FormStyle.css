@@ -1,0 +1,83 @@
+#title{
+    font-family: 'Poppins'; 
+    font-size: 2vw;
+    color: #5851ea;
+    text-align: center; 
+    width:15vw;  
+    font-weight: 900; 
+    position: absolute;
+    top:16vw;  
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#form{
+    width: 65%;
+    position: absolute;
+    top: 26vw;
+    left: 17%;
+    display: inline-block;
+    
+}
+
+#longTextInput{
+    
+    width: 96.2%;
+    font-family: 'Open Sans', sans-serif;
+    height: 2.5vw;
+    border: 0.1vw solid rgb(221, 221, 221);
+    border-radius: 3px;
+    margin-bottom: 1vw;
+    padding-left: 2vw;
+    float: left;
+    font-size: 0.95vw;
+    
+}
+
+#smallTextInputLeft{
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    height: 2.5vw;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    margin-bottom: 1%;  
+    font-size: 0.95vw;
+    padding-left: 2vw;
+}
+
+#smallTextInputRight{
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    height: 2.5vw;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    margin-bottom: 1vw;
+    float: right;
+    font-size: 0.95vw;
+    padding-left: 2vw;
+  
+}
+
+#submitBtn{
+    width: 11vw;
+    padding: 0.6vw 0;
+    margin: auto;
+    display: block;
+    background-color: #5851ea;
+    color:white;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 3vw;
+    border-radius: 100px;
+    border: 1px solid rgba(1,1,1,0.1);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    
+}
+
+::placeholder{
+    color: #5851ea;
+
+}

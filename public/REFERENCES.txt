@@ -1,0 +1,9 @@
+João Canelas
+11/01/2021
+Two Impulse Technical Test
+
+References for the elaboration of this project:
+https://medium.com/swlh/building-controlled-forms-using-functional-components-in-react-965d033a89bd
+https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/
+https://reactjs.org/docs/getting-started.html (many topics on this website about several React properties and funcionalities)
+https://www.w3schools.com/ (many times accessed for refreshers about HTML tags, CSS tags, their properties and funcionalities)
