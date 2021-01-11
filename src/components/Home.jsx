@@ -52,7 +52,7 @@ function Home() {
                     <NavBar />
                     <div id="centerLandingMsg">
                         <p id="landingMotto">Make Your Team the best it can be</p>
-                        <Link id="enterLandingBtn" to="/team/newEmployee"> Enter </Link>
+                        <Link id="enterLandingBtn" to="/ChallengeTest/team/newEmployee"> Enter </Link>
                     </div>                   
                 </div>
 
@@ -70,7 +70,7 @@ function Home() {
                             <p style={{borderTop: "0.2vw solid #5851ea", width:"7.3vw", display: "inline-block", borderRadius:"60px"}} />
                             <p style={styleBase} >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             
-                            <Link to='/pageTodo' style={{textDecoration:'none'}}> 
+                            <Link to='/ChallengeTest/pageTodo' style={{textDecoration:'none'}}> 
                                 <button style={learnMoreBtnStyle}>Learn More</button>
                             </Link>
                         </div> 
