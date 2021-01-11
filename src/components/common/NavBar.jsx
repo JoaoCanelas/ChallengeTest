@@ -25,18 +25,18 @@ class NavBar extends Component {
     
     constructor(){
         super();
-        this.onHome = (window.location.pathname === '/ChallengeTest');
+        this.onHome = (window.location.pathname === '/ChallengeTest/');
     }    
     
     render(){
         return(
             <div style={{backgroundColor: this.onHome ? 'transparent' : '#5851ea' , height:'6vw'}} >  
-                <Link to="/ChallengeTest"><img id="logo" src={logo} alt="logo" /></Link>
+                <Link to="/ChallengeTest/"><img id="logo" src={logo} alt="logo" /></Link>
                 <div id="links">
-                    <NavLink id="navbarButton" exact activeStyle={{fontWeight:'bold'}} to="/ChallengeTest"> Home </NavLink>
-                    <NavLink id="navbarButton" activeStyle={{fontWeight:'bold'}} to ="/ChallengeTest/pageTodo"> Absences</NavLink>
-                    <NavLink id="navbarButton" activeStyle={{fontWeight:'bold'}} to="/ChallengeTest/team"> Employees </NavLink>
-                    { !this.onHome ? <NavLink id="buttonNavBarAlt" style={newEmployeeBtnStyle} to="/ChallengeTest/team/newEmployee"> New Employee</NavLink> : null}
+                    <NavLink id="navbarButton" exact activeStyle={{fontWeight:'bold'}} to="/ChallengeTest/"> Home </NavLink>
+                    <NavLink id="navbarButton" activeStyle={{fontWeight:'bold'}} to ="/ChallengeTest/pageTodo/"> Absences</NavLink>
+                    <NavLink id="navbarButton" activeStyle={{fontWeight:'bold'}} to="/ChallengeTest/team/"> Employees </NavLink>
+                    { !this.onHome ? <NavLink id="buttonNavBarAlt" style={newEmployeeBtnStyle} to="/ChallengeTest/team/newEmployee/"> New Employee</NavLink> : null}
                 </div>
             </div>
         )

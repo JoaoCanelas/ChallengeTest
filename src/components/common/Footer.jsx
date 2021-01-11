@@ -80,16 +80,16 @@ function Footer() {
             <div style={mainDiv}>
                 <div style={divStyle}>
 
-                    <Link to="/ChallengeTest" >
+                    <Link to="/ChallengeTest/" >
                         <img src={logo} alt="logo" style={{height: '2vw', width:'6.85vw', marginTop: '5%'}} />
                     </Link>
 
                     <p style={smallTextStyle}> Me old mucker Harry don't get shirty with me he nicked it up the kyver gutted mate spend a penny bloke my good sir in my flat bleeding quaint.!</p>
                     <div style={{paddingTop:'0.2vw'}}>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} > <img src={facebookIcon} alt=""  style={{width:'7%', paddingRight: '2vw' }} /></a>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={twitterIcon} alt="" style={{width:'10%', paddingRight: '2vw' }} /></a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={instagramIcon} alt="" style={{width:'9%', paddingRight: '2vw' }} /></a>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={linkedInIcon} alt="" style={{width:'10%', paddingRight: '2vw' }} /></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} > <img src={facebookIcon} alt=""  style={{width:'7%', paddingRight: '2vw' }} /></a>
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={twitterIcon} alt="" style={{width:'10%', paddingRight: '2vw' }} /></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={instagramIcon} alt="" style={{width:'9%', paddingRight: '2vw' }} /></a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}}> <img src={linkedInIcon} alt="" style={{width:'10%', paddingRight: '2vw' }} /></a>
                     </div>
                     
                 </div>
@@ -97,31 +97,31 @@ function Footer() {
                 <div style={divStyleAlt}>
                     <p style={{fontSize: '1vw', fontWeight:'bold', color: 'white'}}>Company</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/ChallengeTest'>Home</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Features</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Screenshots</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Pricing</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/team'>Team</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/'>Home</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Features</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Screenshots</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Pricing</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/team/'>Team</Link>
                     </div>
                 </div>
                 <div style={divStyleAlt}>
-                    <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white'}}>Help</p>
+                    <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white/'}}>Help</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Help Center</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>FAQ's</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Terms & Conditions</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Privacy</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Contacts</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Help Center</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>FAQ's</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Terms & Conditions</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Privacy</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Contacts</Link>
                     </div>
                 </div>
                 <div style={divStyleAlt}>
                     <p style={{fontSize: '1vw', fontWeight:'bold',color: 'white'}}>Solutions</p>
                     <div style={smallTextStyle}>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Consumer</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Saas</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Education</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Gaming</Link>
-                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo'>Financial Services</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Consumer</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Saas</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Education</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Gaming</Link>
+                        <Link style={smallTextStyle} to='/ChallengeTest/pageTodo/'>Financial Services</Link>
                     </div>    
                 </div>
             </div>
